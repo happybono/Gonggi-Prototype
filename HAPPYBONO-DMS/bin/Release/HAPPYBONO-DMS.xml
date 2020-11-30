@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+
+-<doc>
+
+
+-<assembly>
+
+<name> HAPPYBONO-DMS </name>
+
+</assembly>
+
+
+-<members>
+
+
+-<member name="T:HAPPYBONO_DMS.My.Resources.Resources">
+
+<summary>A strongly-typed resource class, for looking up localized strings, etc. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.ResourceManager">
+
+<summary>Returns the cached ResourceManager instance used by this class. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.Culture">
+
+<summary>Overrides the current thread's CurrentUICulture property for allresource lookups using this strongly typed resource class. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.CloseIcon">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.DustLv1">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.DustLv2">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.DustLv3">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.DustLv4">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.DustLv5">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.DustLv6">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.DustLv7">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.DustUnk">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.ErrorIcon">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.Gonggi">
+
+<summary>Looks up a localized resource of type System.Drawing.Icon similar to (Icon). </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.HAPPYBONO_DMS_RTL">
+
+<summary>Looks up a localized string similar to <!DOCTYPE html> <html> <head><meta http-equiv="x-ua-compatible" content="IE=11"><meta name="viewport" content="initial-scale=1.0, user-scalable=no"><meta charset="utf-8"><style>/* Always set the map height explicitly to define the size of the div* element that contains the map. */#map {height: 100%;}/* Optional: Makes the sample page fill the window. */html,body {height: 100%;margin: 0;padding: 0;}</ [rest of string was truncated]";. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.IDustLv1">
+
+<summary>Looks up a localized resource of type System.Drawing.Icon similar to (Icon). </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.IDustLv2">
+
+<summary>Looks up a localized resource of type System.Drawing.Icon similar to (Icon). </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.IDustLv3">
+
+<summary>Looks up a localized resource of type System.Drawing.Icon similar to (Icon). </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.IDustLv4">
+
+<summary>Looks up a localized resource of type System.Drawing.Icon similar to (Icon). </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.IDustLv5">
+
+<summary>Looks up a localized resource of type System.Drawing.Icon similar to (Icon). </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.IDustLv6">
+
+<summary>Looks up a localized resource of type System.Drawing.Icon similar to (Icon). </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.IDustLv7">
+
+<summary>Looks up a localized resource of type System.Drawing.Icon similar to (Icon). </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.MainIcon">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.MoreIcon">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.Notification">
+
+<summary>Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream. </summary>
+
+</member>
+
+
+-<member name="P:HAPPYBONO_DMS.My.Resources.Resources.OptIcon">
+
+<summary>Looks up a localized resource of type System.Drawing.Bitmap. </summary>
+
+</member>
+
+</members>
+
+</doc>
