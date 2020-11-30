@@ -4,6 +4,12 @@ Windows Native Client Application for the Fine-dust Monitoring System (IoT).
 <img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_1.png" alt="Screenshot_1"/>
 
 # Features
+* Monitoring the current status of fine dust and air quality and temperature.
+* Displays current location of the fine dust monitoring device (measured location) real-time, in dedicated web browser in an application.
+* Send a notification to user every 30 minutes via pop-up window. (allows user to set various notification conditions in the "Settings" window.)
+* Displays measured history up to three-hours.
+* Offline environment support. (Only for viewing.)
+* Supports Auto-Update in an application. (OTA update)
 
 <img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_2.png" alt="Screenshot_2"/>
 
@@ -26,8 +32,3 @@ Windows Native Client Application for the Fine-dust Monitoring System (IoT).
 
 # Contribute
 -
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
