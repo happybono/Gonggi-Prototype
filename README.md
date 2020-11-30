@@ -1,5 +1,5 @@
 # Introduction 
-Windows Native Client Application for the Fine-dust Monitor Dashboard.
+Windows Native Client Application for the Fine-dust Monitoring System (IoT).
 
 # Getting Started
 -
