@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE=11">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map {
+      height: 100%;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyft7DMS6e6eHotFm167cCDOzpMYJ-yRo"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+	var position;
+    var apiUrl = "https://api.thingspeak.com/channels/976688/feeds.json?results=1&api_key=QEA8NV5PSJW7IWAY";
+	var latlng;
+	var infowindow = new google.maps.InfoWindow;
+
+	function initPosition() {
+		$.getJSON(apiUrl, function (result) {
+			position = [result.feeds[0].field4, result.feeds[0].field5];
+		}).done(function() {
+			initMap();
+		});
+	}
+
+	function initMap() {
+		latlng = new google.maps.LatLng(position[0], position[1]);
+		var myOptions = {
+			zoom: 16,
+			center: latlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		map = new google.maps.Map(document.getElementById("map"), myOptions);
+
+		var geocoder = new google.maps.Geocoder;
+		
+		geocodeLatLng(geocoder, map, infowindow)
+
+		marker = new google.maps.Marker({
+			position: latlng,
+			map: map,
+			title: "Location: " + position[0] + ", " + position[1]
+		});
+
+		setInterval(updateData, 45000);
+	}
+
+	function updateData() {
+		console.log();
+		var nPosition;
+		$.getJSON(apiUrl, function (result) {
+			nPosition = [result.feeds[0].field4, result.feeds[0].field5];			
+		}).done(function() {			
+			jumpMarker(nPosition);
+		});
+	}
+
+	//Load google map
+	google.maps.event.addDomListener(window, 'load', initPosition);
+
+	function jumpMarker(result) {
+		latlng = new google.maps.LatLng(result[0], result[1]);
+		var geocoder = new google.maps.Geocoder;
+
+		map.setCenter(latlng);
+		marker.setTitle("Latitude:"+result[0]+" | Longitude:"+result[1]);
+		marker.setPosition(latlng);
+		console.log('jumpMarker()')
+		console.log(latlng.toString());
+		geocodeLatLng(geocoder, map, infowindow);
+	}
+	
+	function geocodeLatLng(geocoder, map, infowindow) {
+			geocoder.geocode({ 'location': latlng }, function (results, status) {
+				if (status === 'OK') {
+					if (results[0]) {				
+						infowindow.setContent(results[0].formatted_address);					
+						infowindow.open(map, marker);
+						
+						console.log('geocodeLatLng()');
+						console.log(latlng.toString());
+						console.log(results[0].formatted_address);
+					} else {
+						console.log('No results found');
+					}
+				} else {
+					console.log('Geocoder failed due to: ' + status);
+				}
+
+				google.maps.event.addListener(marker, 'click', function () {
+					infowindow.open(map, marker);
+				});
+			});
+	}
+</script>
+</head>
+
+<body>
+	<div id="map"></div>
+</body>
+
+</html>
