@@ -10,6 +10,7 @@ Windows Native Client Application for the Fine-dust Monitoring System (IoT).
 * Displays measured history up to three-hours.
 * Offline environment support. (Only for viewing.)
 * Supports Auto-Update in an application. (OTA update)
+* Supports High-Dpi monitors and devices.
 
 <img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_2.png" alt="Screenshot_2"/>
 
