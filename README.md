@@ -28,16 +28,21 @@ Windows Native Client Application (Windows Forms Application) for the Fine-dust 
 
 <img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Popup.png" alt="Screenshot_Popup"/>
 
-
+# Requirements
+* .NET Framework 4.7.2
 
 # Getting Started
--
+- 
 
 # Build and Test
 -
 
 # Contribute
 -
+
+# Libraries / Extensions
+- [Microsoft Visual Basic Powerpacks](https://www.microsoft.com/en-us/download/details.aspx?id=25169)
+- [LiveCharts](https://lvcharts.net/)
 
 # License
 This is released under [MIT License](https://opensource.org/licenses/MIT)
