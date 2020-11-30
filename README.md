@@ -29,7 +29,7 @@ Windows Native Client Application (Windows Forms Application) for the Fine-dust 
 <img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Popup.png" alt="Screenshot_Popup"/>
 
 # Requirements
-* .NET Framework 4.7.2
+* [.NET Framework 4.7.2](https://support.microsoft.com/ko-kr/help/4054530/microsoft-net-framework-4-7-2-offline-installer-for-windows)
 
 # Getting Started
 - 
