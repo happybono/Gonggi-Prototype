@@ -625,7 +625,7 @@ Public Class MainForm
         Dim addressCheck As Match
 
         Try
-            Dim request As HttpWebRequest = CType(WebRequest.Create("https://maps.googleapis.com/maps/api/geocode/json?latlng=" & lat.Last & "," & lng.Last & "&key=AIzaSyCyft7DMS6e6eHotFm167cCDOzpMYJ-yRo"), HttpWebRequest)
+            Dim request As HttpWebRequest = CType(WebRequest.Create("https://maps.googleapis.com/maps/api/geocode/json?latlng=" & lat.Last & "," & lng.Last & "&key=[Your Google Maps JavaScript API Key]"), HttpWebRequest)
             response = CType(request.GetResponse(), HttpWebResponse)
 
             Dim reader As StreamReader = New StreamReader(response.GetResponseStream())
@@ -777,7 +777,7 @@ Public Class MainForm
     Private Sub Updater_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles Updater.DoWork
 
         Try
-            Dim src As String = getSrc("https://onedrive.live.com/download?cid=406282C4FD4D2A6B&resid=406282C4FD4D2A6B%21535352&authkey=AGCVQXOlz6pU47Y")
+            Dim src As String = getSrc("https://onedrive.live.com/download?cid=406282C4FD4D2A6B&resid=406282C4FD4D2A6B%21535352")
             Dim srcv() As String = src.Split(",") '0 = version number / 1 = download url
             If srcv(0) <= Me.ProductVersion Then
                 Exit Sub
