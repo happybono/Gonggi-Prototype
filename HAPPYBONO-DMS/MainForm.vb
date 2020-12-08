@@ -457,7 +457,7 @@ Public Class MainForm
             Dim res As Double
 
             Dim fieldMatches As MatchCollection
-            fieldMatches = Regex.Matches(nodeMatch.Value, "(""(?<f>c)reated_at"":""(?<v>[^""]+)""|""field(?<f>\d)"":""(?<v>(\d+|\d+\.\d+))"")")
+            fieldMatches = Regex.Matches(nodeMatch.Value, "(""(?<f>c)reated_at"":""(?<v>[^""]+)""|""field(?<f>\d)"":""(?<v>-?(\d+|\d+\.\d+))"")")
 
             For Each fieldMatch As Match In fieldMatches
                 Select Case fieldMatch.Groups("f").Value
