@@ -1,11 +1,12 @@
-# Introduction 
+# Gonggi
+## Introduction 
 Windows Native Client Application (Windows Forms Application) for the Fine-dust Monitoring System (IoT).
 
 <img src="https://github.com/happybono/Gonggi/blob/master/ThingSpeak-WinOS.png" alt="ThingSpeak_Schematics"/>
 
 <img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_1.png" alt="Screenshot_1"/>
 
-# Features
+## Features
 * Monitoring the current status of fine dust and air quality and temperature.
 * Displays current location of the fine dust monitoring device (measured location) real-time, in dedicated web browser in an application.
 * Send a notification to user every 30 minutes via pop-up window. (allows user to set various notification conditions in the "Settings" window.)
@@ -28,23 +29,24 @@ Windows Native Client Application (Windows Forms Application) for the Fine-dust 
 
 <img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Popup.png" alt="Screenshot_Popup"/>
 
-# Requirements
-* [.NET Framework 4.7.2](https://support.microsoft.com/ko-kr/help/4054530/microsoft-net-framework-4-7-2-offline-installer-for-windows)
+## Requirements
+* Recommended Operating System : Windows 10 or Later.
+* [.NET Framework 4.7.2](https://support.microsoft.com/ko-kr/help/4054530/microsoft-net-framework-4-7-2-offline-installer-for-windows) 
 
-# Getting Started
+## Getting Started
 - 
 
-# Build and Test
+## Build and Test
 -
 
-# Contribute
+## Contribute
 -
 
-# Libraries / Extensions
+## Libraries / Extensions
 - [Microsoft Visual Basic Powerpacks](https://www.microsoft.com/en-us/download/details.aspx?id=25169)
 - [LiveCharts](https://lvcharts.net/)
 
-# License
+## License
 This is released under [MIT License](https://opensource.org/licenses/MIT)
 
 > The MIT License (MIT)
