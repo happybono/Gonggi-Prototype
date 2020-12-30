@@ -1,6 +1,6 @@
 # Gonggi
 ## Introduction 
-Windows Native Client Application (Windows Forms Application) for the Fine-dust Monitoring System (IoT).
+Windows Native Client Application (Windows Forms Application) for the [Fine-dust Monitoring System (IoT)](https://github.com/happybono/FinedustMonitorWithGPS).
 
 <img src="https://github.com/happybono/Gonggi/blob/master/ThingSpeak-WClient.png" alt="ThingSpeak_Schematics"/>
 
