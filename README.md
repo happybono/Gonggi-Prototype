@@ -1,7 +1,14 @@
 # Gonggi
-## Introduction 
 Windows Native Client Application (Windows Forms Application) for the [Fine-dust Monitoring System (IoT)](https://github.com/happybono/FinedustMonitorWithGPS).
 
+<div align="center">
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/happybono/FineDustMonitorwithGPS"> 
+<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/happybono/FineDustMonitorwithGPS">
+<img alt="GitHub Repo Languages" src="https://img.shields.io/github/languages/count/happybono/FineDustMonitorWithGPS">
+<img alt="GitHub Top Languages" src="https://img.shields.io/github/languages/top/HappyBono/FineDustMonitorWithGPS">
+</div>
+
+## Introduction 
 <img src="https://github.com/happybono/Gonggi/blob/master/ThingSpeak-WClient.png" alt="ThingSpeak_Schematics"/>
 
 <img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_1.png" alt="Screenshot_1"/>
