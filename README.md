@@ -2,10 +2,10 @@
 Windows Native Client Application (Windows Forms Application) for the [Fine-dust Monitoring System (IoT)](https://github.com/happybono/FinedustMonitorWithGPS).
 
 <div align="center">
-<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/happybono/FineDustMonitorwithGPS"> 
-<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/happybono/FineDustMonitorwithGPS">
-<img alt="GitHub Repo Languages" src="https://img.shields.io/github/languages/count/happybono/FineDustMonitorWithGPS">
-<img alt="GitHub Top Languages" src="https://img.shields.io/github/languages/top/HappyBono/FineDustMonitorWithGPS">
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/happybono/Gonggi"> 
+<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/happybono/Gonggi">
+<img alt="GitHub Repo Languages" src="https://img.shields.io/github/languages/count/happybono/Gonggi">
+<img alt="GitHub Top Languages" src="https://img.shields.io/github/languages/top/HappyBono/Gonggi">
 </div>
 
 ## Introduction 
