@@ -53,6 +53,9 @@ Windows Native Client Application (Windows Forms Application) for the [Fine-dust
 - [Microsoft Visual Basic Powerpacks](https://www.microsoft.com/en-us/download/details.aspx?id=25169)
 - [LiveCharts](https://lvcharts.net/)
 
+## To-do List
+* To be added 3-hour (recent), daily, weekly graph display, and function.
+
 ## License
 This is released under [MIT License](https://opensource.org/licenses/MIT)
 
