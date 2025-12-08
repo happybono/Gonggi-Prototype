@@ -9,9 +9,9 @@ Windows Native Client Application (Windows Forms Application) for the [Fine-dust
 </div>
 
 ## Introduction 
-<img src="https://github.com/happybono/Gonggi/blob/master/ThingSpeak-WClient.png" alt="ThingSpeak_Schematics"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/ThingSpeak-WClient.png" alt="ThingSpeak_Schematics"/>
 
-<img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_1.png" alt="Screenshot_1"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/Gonggi-Screenshot_1.png" alt="Screenshot_1"/>
 
 ## Features
 * Monitoring the current status of fine dust and air quality and temperature.
@@ -22,19 +22,19 @@ Windows Native Client Application (Windows Forms Application) for the [Fine-dust
 * Supports Auto-Update in an application. (OTA update)
 * Supports High-Dpi monitors and devices.
 
-<img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_2.png" alt="Screenshot_2"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/Gonggi-Screenshot_2.png" alt="Screenshot_2"/>
 
-<img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_3.png" alt="Screenshot_3"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/Gonggi-Screenshot_3.png" alt="Screenshot_3"/>
 
-<img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_4.png" alt="Screenshot_4"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/Gonggi-Screenshot_4.png" alt="Screenshot_4"/>
 
-<img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Screenshot_5.png" alt="Screenshot_5"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/Gonggi-Screenshot_5.png" alt="Screenshot_5"/>
 
-<img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Update.png" alt="Screenshot_Update"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/Gonggi-Update.png" alt="Screenshot_Update"/>
 
-<img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Version.png" alt="Screenshot_About"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/Gonggi-Version.png" alt="Screenshot_About"/>
 
-<img src="https://github.com/happybono/Gonggi/blob/master/Gonggi-Popup.png" alt="Screenshot_Popup"/>
+<img src="https://github.com/happybono/Gonggi-Prototype/blob/master/Gonggi-Popup.png" alt="Screenshot_Popup"/>
 
 ## Requirements
 * Recommended Operating System : Windows 10 or Later.
@@ -68,3 +68,4 @@ This is released under [MIT License](https://opensource.org/licenses/MIT)
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 > 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
