@@ -1,12 +1,14 @@
 # Gonggi
-Windows Native Client Application (Windows Forms Application) for the [Fine-dust Monitoring System (IoT)](https://github.com/happybono/FinedustMonitorWithGPS).
-
+Windows Native Client Application (Windows Forms Application) for the [Fine-dust Monitoring System (IoT)](https://github.com/happybono/FinedustMonitorWithGPS).  
+  
+<br>
 <div align="center">
 <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/happybono/Gonggi-Prototype"> 
 <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/happybono/Gonggi-Prototype">
 <img alt="GitHub Repo Languages" src="https://img.shields.io/github/languages/count/happybono/Gonggi-Prototype">
 <img alt="GitHub Top Languages" src="https://img.shields.io/github/languages/top/happybono/Gonggi-Prototype">
 </div>
+<br>
 
 ## Introduction 
 <img src="https://github.com/happybono/Gonggi-Prototype/blob/master/ThingSpeak-WClient.png" alt="ThingSpeak_Schematics"/>
@@ -68,5 +70,6 @@ This is released under [MIT License](https://opensource.org/licenses/MIT)
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 > 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 
